@@ -21,11 +21,13 @@ router.post('/create', (req, res) => {
   res.send('Create');
 })
 
-router.put('/update', (req, res) => {
+//update contact by id
+router.put('/update/:id', (req, res) => {
   res.send('Update');
 })
 
-router.delete('/delete', (req, res) => {
+//delete contact by id
+router.delete('/delete/:id', (req, res) => {
   res.send('Delete');
 })
 
